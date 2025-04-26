@@ -1,0 +1,26 @@
+main .get
+    login .get
+        login .get .post
+        cadastro .get .post
+    secure .get
+        admin .get
+            edit .get .post .update .delete
+            dados .get
+                usuários .get .post .update .delete
+                    edit .get .post .update .delete
+        user .get
+            edit .get .update
+            dados .get
+                extrato .get .post .update .delete
+                metas .get .post .update .delete
+                dívidas .get .post .update .delete
+                investimentos .get .post .update .delete
+                thinking
+                    dados_processados
+                gastos .get
+                    fixos .get .post .update .delete
+                    variáveis .get .post .update .delete
+
+
+
+
